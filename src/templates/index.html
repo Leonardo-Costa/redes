@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.0/socket.io.min.js"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      $(document).ready(() => {
+        const socket = io.connect("http://localhost:5000");
+
+        socket.on("connect", () => {
+          socket.send("usuário conectado!");
+        });
+
+        socket.on("message", (data) => {
+          $("#messages").append($("<p>").text(data));
+        });
+
+        $("#sendButton").on("click", () => {
+          console.warn("botao clicado");
+          socket.send($("#username").val() + ": " + $("#message").val());
+          $("#message").val("");
+        });
+      });
+    </script>
+    <div class="home">
+      <div id="messages" class="home__messages"></div>
+      <div class="interface">
+        <input type="text" id="username" placeholder="username" class="input" />
+        <input type="text" id="message" placeholder="message" class="input" />
+        <button id="sendButton" class="button">enviar</button>
+      </div>
+    </div>
+  </body>
+</html>
