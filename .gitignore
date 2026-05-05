@@ -1,5 +1,7 @@
-# Graphify pipeline temp files
+# Graphify pipeline temp files and cache
 research/graphify-out/.graphify_*
+/graphify-out/
+research/graphify-out/cache/
 
 # Python
 __pycache__/
