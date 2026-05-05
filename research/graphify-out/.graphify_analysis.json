@@ -1,0 +1,222 @@
+{
+  "communities": {
+    "0": [
+      "00_initial_brief_cfpb_dataset",
+      "00_initial_brief_migration_ptbr",
+      "00_initial_brief_paper_arxiv_2212_01285",
+      "00_initial_brief_paper_arxiv_2301_05663",
+      "00_initial_brief_paper_pakhchanyan2022",
+      "00_initial_brief_poc_operational_risk",
+      "00_initial_brief_selfservice_investigation",
+      "00_initial_brief_weak_signal_discovery",
+      "notes_graphify_setup",
+      "notes_intelligence_platform_reframe"
+    ],
+    "1": [
+      "00_initial_brief_adr6_no_graph_v1",
+      "00_initial_brief_graphiti",
+      "00_initial_brief_graphrag",
+      "00_initial_brief_paper_incidentai_2310_12074",
+      "00_initial_brief_uci_event_log",
+      "plans_adr6_reconsideration",
+      "plans_lightrag",
+      "plans_plan3_causal_relational",
+      "plans_process_mining"
+    ],
+    "2": [
+      "00_initial_brief_capgemini_invent",
+      "00_initial_brief_nl_qa_agent",
+      "00_initial_brief_streamlit_ui",
+      "notes_conversational_differentiator",
+      "plans_dspy",
+      "plans_hybrid_rag",
+      "plans_plan5_conversational_market",
+      "plans_text_to_sql"
+    ],
+    "3": [
+      "00_initial_brief_bertopic_naive_failure",
+      "00_initial_brief_clio_approach",
+      "00_initial_brief_llm_pre_extraction",
+      "plans_bertopic",
+      "plans_ntm_prodlda_etm",
+      "plans_plan1_topic_modeling",
+      "plans_top2vec"
+    ],
+    "4": [
+      "00_initial_brief_prophet_zscore",
+      "notes_temporal_gap",
+      "plans_changepoint_detection",
+      "plans_concept_drift",
+      "plans_dtm_dynamic_topic_models",
+      "plans_plan4_temporal_novelty"
+    ],
+    "5": [
+      "00_initial_brief_embedding_strategy",
+      "00_initial_brief_hdbscan_umap",
+      "00_initial_brief_pgvector",
+      "00_initial_brief_pydantic_schema",
+      "notes_decision_table"
+    ],
+    "6": [
+      "plans_active_learning",
+      "plans_argilla_labelstudio_prodigy",
+      "plans_plan2_selfservice_classification",
+      "plans_snorkel_weak_supervision"
+    ],
+    "7": [
+      "00_initial_brief_paper_semiorc_acl2020",
+      "00_initial_brief_selfservice_classification",
+      "notes_dynamic_hierarchy_gap"
+    ],
+    "8": [
+      "00_initial_brief_basel_framework",
+      "00_initial_brief_resolucao_4557"
+    ],
+    "9": [
+      "00_initial_brief_danluu_postmortems"
+    ]
+  },
+  "cohesion": {
+    "0": 0.2,
+    "1": 0.33,
+    "2": 0.29,
+    "3": 0.38,
+    "4": 0.53,
+    "5": 0.5,
+    "6": 0.67,
+    "7": 0.67,
+    "8": 1.0,
+    "9": 1.0
+  },
+  "gods": [
+    {
+      "id": "00_initial_brief_poc_operational_risk",
+      "label": "Operational Risk Incident Intelligence POC",
+      "degree": 19
+    },
+    {
+      "id": "notes_decision_table",
+      "label": "Research Decision Validation Table (D1-D8)",
+      "degree": 11
+    },
+    {
+      "id": "plans_plan1_topic_modeling",
+      "label": "Research Plan 1 \u2014 Modern Topic Modeling",
+      "degree": 8
+    },
+    {
+      "id": "plans_plan2_selfservice_classification",
+      "label": "Research Plan 2 \u2014 Self-Service Classification",
+      "degree": 6
+    },
+    {
+      "id": "plans_plan3_causal_relational",
+      "label": "Research Plan 3 \u2014 Causal and Relational Analysis",
+      "degree": 6
+    },
+    {
+      "id": "plans_plan4_temporal_novelty",
+      "label": "Research Plan 4 \u2014 Temporal Analysis and Novelty Detection",
+      "degree": 6
+    },
+    {
+      "id": "plans_plan5_conversational_market",
+      "label": "Research Plan 5 \u2014 Conversational Interface and Market Practices",
+      "degree": 6
+    },
+    {
+      "id": "00_initial_brief_selfservice_classification",
+      "label": "Self-Service Classification Capability",
+      "degree": 4
+    },
+    {
+      "id": "00_initial_brief_graphrag",
+      "label": "Microsoft GraphRAG",
+      "degree": 4
+    },
+    {
+      "id": "00_initial_brief_adr6_no_graph_v1",
+      "label": "ADR 6: No Knowledge Graph in v1",
+      "degree": 4
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Microsoft GraphRAG",
+      "target": "LightRAG",
+      "source_files": [
+        "research/raw/00-initial-brief.md",
+        "research/round-1/plans.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Hybrid RAG (Semantic Search + SQL in same agent)",
+      "target": "NL Q&A Agent (text-to-SQL + semantic search)",
+      "source_files": [
+        "research/round-1/plans.md",
+        "research/raw/00-initial-brief.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Intelligence Platform Reframe (vs pure BI classification)",
+      "target": "Operational Risk Incident Intelligence POC",
+      "source_files": [
+        "research/decisions/00-brief-reading-notes.md",
+        "research/raw/00-initial-brief.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "rationale_for",
+      "why": "peripheral node `Intelligence Platform Reframe (vs pure BI classification)` unexpectedly reaches hub `Operational Risk Incident Intelligence POC`"
+    },
+    {
+      "source": "Graphify Tool Setup",
+      "target": "Operational Risk Incident Intelligence POC",
+      "source_files": [
+        "research/decisions/00-brief-reading-notes.md",
+        "research/raw/00-initial-brief.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "peripheral node `Graphify Tool Setup` unexpectedly reaches hub `Operational Risk Incident Intelligence POC`"
+    },
+    {
+      "source": "Research Decision Validation Table (D1-D8)",
+      "target": "LLM Pre-Extraction before Clustering",
+      "source_files": [
+        "research/decisions/00-brief-reading-notes.md",
+        "research/raw/00-initial-brief.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `Operational Risk Incident Intelligence POC` connect `Community 0` to `Community 1`, `Community 2`, `Community 5`, `Community 7`, `Community 8`?",
+      "why": "High betweenness centrality (0.519) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Research Decision Validation Table (D1-D8)` connect `Community 5` to `Community 1`, `Community 2`, `Community 3`, `Community 4`, `Community 6`?",
+      "why": "High betweenness centrality (0.419) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Research Plan 1 \u2014 Modern Topic Modeling` connect `Community 3` to `Community 4`, `Community 5`, `Community 6`?",
+      "why": "High betweenness centrality (0.158) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `CFPB Consumer Complaint Database`, `Weak Signal Discovery Capability`, `Self-Service Investigation Capability` to the rest of the system?",
+      "why": "18 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ]
+}

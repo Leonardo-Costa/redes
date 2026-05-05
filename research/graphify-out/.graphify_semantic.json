@@ -1,0 +1,1430 @@
+{
+  "nodes": [
+    {
+      "id": "00_initial_brief_poc_operational_risk",
+      "label": "Operational Risk Incident Intelligence POC",
+      "file_type": "document",
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a70 TL;DR",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "00_initial_brief_cfpb_dataset",
+      "label": "CFPB Consumer Complaint Database",
+      "file_type": "document",
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a75.1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "00_initial_brief_pydantic_schema",
+      "label": "Pydantic Schema with Orthogonal Facets",
+      "file_type": "rationale",
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a76.2",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "00_initial_brief_llm_pre_extraction",
+      "label": "LLM Pre-Extraction before Clustering",
+      "file_type": "rationale",
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a74, \u00a76.1, ADR 1",
+      "source_url": null,
+      "captured_at": "2026-05-05",
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "00_initial_brief_bertopic_naive_failure",
+      "label": "BERTopic Naive Clustering Failure",
+      "file_type": "rationale",
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a74",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "00_initial_brief_clio_approach",
+      "label": "Clio-style Faceted Summarization",
+      "file_type": "rationale",
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a72.3, \u00a74",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "00_initial_brief_hdbscan_umap",
+      "label": "UMAP + HDBSCAN Clustering Pipeline",
+      "file_type": "rationale",
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a76.4",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "00_initial_brief_pgvector",
+      "label": "pgvector Vector Store",
+      "file_type": "rationale",
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a76, ADR 4",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "00_initial_brief_prophet_zscore",
+      "label": "Prophet/Z-score Temporal Signal Detection",
+      "file_type": "rationale",
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a76.5",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "00_initial_brief_streamlit_ui",
+      "label": "Streamlit UI",
+      "file_type": "rationale",
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a78, ADR 8 implied",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "00_initial_brief_selfservice_classification",
+      "label": "Self-Service Classification Capability",
+      "file_type": "rationale",
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a71.4",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "00_initial_brief_weak_signal_discovery",
+      "label": "Weak Signal Discovery Capability",
+      "file_type": "rationale",
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a71.3",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "00_initial_brief_selfservice_investigation",
+      "label": "Self-Service Investigation Capability",
+      "file_type": "rationale",
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a71.3",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "00_initial_brief_basel_framework",
+      "label": "Basel II/III Operational Risk Framework",
+      "file_type": "document",
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a73.1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "00_initial_brief_resolucao_4557",
+      "label": "Resolu\u00e7\u00e3o 4557 BCB",
+      "file_type": "document",
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a73.1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "00_initial_brief_paper_pakhchanyan2022",
+      "label": "Pakhchanyan et al. (2022) \u2014 ML for OpRisk Basel Classification",
+      "file_type": "document",
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a73.2",
+      "source_url": null,
+      "captured_at": null,
+      "author": "Pakhchanyan et al.",
+      "contributor": null
+    },
+    {
+      "id": "00_initial_brief_paper_arxiv_2212_01285",
+      "label": "arXiv:2212.01285 \u2014 Text Analysis for OpRisk Loss Descriptions",
+      "file_type": "document",
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a73.2",
+      "source_url": "https://arxiv.org/abs/2212.01285",
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "00_initial_brief_paper_semiorc_acl2020",
+      "label": "SemiORC (ACL 2020) \u2014 Semi-supervised OpRisk Classification",
+      "file_type": "document",
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a73.2",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "00_initial_brief_paper_incidentai_2310_12074",
+      "label": "arXiv:2310.12074 \u2014 IncidentAI (Cinnamon/ACL)",
+      "file_type": "document",
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a73.2",
+      "source_url": "https://arxiv.org/abs/2310.12074",
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "00_initial_brief_paper_arxiv_2301_05663",
+      "label": "arXiv:2301.05663 \u2014 NLP of Aviation Occurrence Reports",
+      "file_type": "document",
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a73.2",
+      "source_url": "https://arxiv.org/abs/2301.05663",
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "00_initial_brief_capgemini_invent",
+      "label": "Capgemini Invent OpRisk Tools",
+      "file_type": "document",
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a73.3",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "00_initial_brief_graphrag",
+      "label": "Microsoft GraphRAG",
+      "file_type": "document",
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a72.3",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "00_initial_brief_graphiti",
+      "label": "Graphiti (getzep)",
+      "file_type": "document",
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a72.3",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "00_initial_brief_adr6_no_graph_v1",
+      "label": "ADR 6: No Knowledge Graph in v1",
+      "file_type": "rationale",
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a711 ADR 6",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "00_initial_brief_embedding_strategy",
+      "label": "Multi-field Embedding Strategy (summary fields)",
+      "file_type": "rationale",
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a76.3",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "00_initial_brief_migration_ptbr",
+      "label": "Post-POC Migration to Client (PT-BR)",
+      "file_type": "document",
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a710",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "00_initial_brief_uci_event_log",
+      "label": "UCI Incident Management Process Event Log",
+      "file_type": "document",
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a75.2",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "00_initial_brief_danluu_postmortems",
+      "label": "danluu/post-mortems Dataset",
+      "file_type": "document",
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a75.2",
+      "source_url": "https://github.com/danluu/post-mortems",
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "00_initial_brief_nl_qa_agent",
+      "label": "NL Q&A Agent (text-to-SQL + semantic search)",
+      "file_type": "rationale",
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a76.7",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_plan1_topic_modeling",
+      "label": "Research Plan 1 \u2014 Modern Topic Modeling",
+      "file_type": "document",
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 1",
+      "source_url": null,
+      "captured_at": "2026-05-05",
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_plan2_selfservice_classification",
+      "label": "Research Plan 2 \u2014 Self-Service Classification",
+      "file_type": "document",
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 2",
+      "source_url": null,
+      "captured_at": "2026-05-05",
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_plan3_causal_relational",
+      "label": "Research Plan 3 \u2014 Causal and Relational Analysis",
+      "file_type": "document",
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 3",
+      "source_url": null,
+      "captured_at": "2026-05-05",
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_plan4_temporal_novelty",
+      "label": "Research Plan 4 \u2014 Temporal Analysis and Novelty Detection",
+      "file_type": "document",
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 4",
+      "source_url": null,
+      "captured_at": "2026-05-05",
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_plan5_conversational_market",
+      "label": "Research Plan 5 \u2014 Conversational Interface and Market Practices",
+      "file_type": "document",
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 5",
+      "source_url": null,
+      "captured_at": "2026-05-05",
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_bertopic",
+      "label": "BERTopic",
+      "file_type": "rationale",
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_top2vec",
+      "label": "Top2Vec",
+      "file_type": "rationale",
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_ntm_prodlda_etm",
+      "label": "Neural Topic Models (ProdLDA/ETM)",
+      "file_type": "rationale",
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_snorkel_weak_supervision",
+      "label": "Snorkel / Weak Supervision",
+      "file_type": "rationale",
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 2",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_active_learning",
+      "label": "Active Learning (uncertainty sampling, query-by-committee)",
+      "file_type": "rationale",
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 2",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_argilla_labelstudio_prodigy",
+      "label": "Annotation Tools (Argilla, Label Studio, Prodigy)",
+      "file_type": "rationale",
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 2",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_lightrag",
+      "label": "LightRAG",
+      "file_type": "document",
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 3",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_process_mining",
+      "label": "Process Mining (PM4Py, ProM, Disco)",
+      "file_type": "rationale",
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 3",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_dtm_dynamic_topic_models",
+      "label": "Dynamic Topic Models (DTM, Blei & Lafferty 2006)",
+      "file_type": "rationale",
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 4",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_changepoint_detection",
+      "label": "Changepoint Detection (PELT, BOCPD)",
+      "file_type": "rationale",
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 4",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_concept_drift",
+      "label": "Concept Drift Detection",
+      "file_type": "rationale",
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 4",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_text_to_sql",
+      "label": "Text-to-SQL for Incident Analysis",
+      "file_type": "rationale",
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 5",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_hybrid_rag",
+      "label": "Hybrid RAG (Semantic Search + SQL in same agent)",
+      "file_type": "rationale",
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 5",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_dspy",
+      "label": "DSPy (Stanford NLP)",
+      "file_type": "rationale",
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 5",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_adr6_reconsideration",
+      "label": "ADR 6 Reconsideration (KG in v1)",
+      "file_type": "rationale",
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 3 Output",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "notes_intelligence_platform_reframe",
+      "label": "Intelligence Platform Reframe (vs pure BI classification)",
+      "file_type": "rationale",
+      "source_file": "research/decisions/00-brief-reading-notes.md",
+      "source_location": "conclusion 1",
+      "source_url": null,
+      "captured_at": "2026-05-05",
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "notes_temporal_gap",
+      "label": "Temporal Analysis Gap (Prophet/z-score rudimentary)",
+      "file_type": "rationale",
+      "source_file": "research/decisions/00-brief-reading-notes.md",
+      "source_location": "conclusion 6",
+      "source_url": null,
+      "captured_at": "2026-05-05",
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "notes_graphify_setup",
+      "label": "Graphify Tool Setup",
+      "file_type": "rationale",
+      "source_file": "research/decisions/00-brief-reading-notes.md",
+      "source_location": "conclusion 10",
+      "source_url": null,
+      "captured_at": "2026-05-05",
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "notes_decision_table",
+      "label": "Research Decision Validation Table (D1-D8)",
+      "file_type": "document",
+      "source_file": "research/decisions/00-brief-reading-notes.md",
+      "source_location": "Decis\u00f5es que a pesquisa deve validar",
+      "source_url": null,
+      "captured_at": "2026-05-05",
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "notes_dynamic_hierarchy_gap",
+      "label": "Dynamic Topic Hierarchy Gap (online sub-cluster decomposition)",
+      "file_type": "rationale",
+      "source_file": "research/decisions/00-brief-reading-notes.md",
+      "source_location": "Gaps identificados",
+      "source_url": null,
+      "captured_at": "2026-05-05",
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "notes_conversational_differentiator",
+      "label": "Conversational Self-Service as Key Differentiator vs BI Dashboard",
+      "file_type": "rationale",
+      "source_file": "research/decisions/00-brief-reading-notes.md",
+      "source_location": "conclusion 8",
+      "source_url": null,
+      "captured_at": "2026-05-05",
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "00_initial_brief_poc_operational_risk",
+      "target": "00_initial_brief_cfpb_dataset",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a70, \u00a75",
+      "weight": 1.0
+    },
+    {
+      "source": "00_initial_brief_poc_operational_risk",
+      "target": "00_initial_brief_pydantic_schema",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a76.2",
+      "weight": 1.0
+    },
+    {
+      "source": "00_initial_brief_poc_operational_risk",
+      "target": "00_initial_brief_hdbscan_umap",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a76.4",
+      "weight": 1.0
+    },
+    {
+      "source": "00_initial_brief_poc_operational_risk",
+      "target": "00_initial_brief_pgvector",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a76, ADR 4",
+      "weight": 1.0
+    },
+    {
+      "source": "00_initial_brief_poc_operational_risk",
+      "target": "00_initial_brief_streamlit_ui",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a78",
+      "weight": 1.0
+    },
+    {
+      "source": "00_initial_brief_poc_operational_risk",
+      "target": "00_initial_brief_selfservice_classification",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a71.4",
+      "weight": 1.0
+    },
+    {
+      "source": "00_initial_brief_poc_operational_risk",
+      "target": "00_initial_brief_weak_signal_discovery",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a71.3",
+      "weight": 1.0
+    },
+    {
+      "source": "00_initial_brief_poc_operational_risk",
+      "target": "00_initial_brief_selfservice_investigation",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a71.3",
+      "weight": 1.0
+    },
+    {
+      "source": "00_initial_brief_llm_pre_extraction",
+      "target": "00_initial_brief_bertopic_naive_failure",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a74",
+      "weight": 1.0
+    },
+    {
+      "source": "00_initial_brief_clio_approach",
+      "target": "00_initial_brief_llm_pre_extraction",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a74",
+      "weight": 1.0
+    },
+    {
+      "source": "00_initial_brief_embedding_strategy",
+      "target": "00_initial_brief_pydantic_schema",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a76.3",
+      "weight": 1.0
+    },
+    {
+      "source": "00_initial_brief_poc_operational_risk",
+      "target": "00_initial_brief_basel_framework",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a73.1",
+      "weight": 1.0
+    },
+    {
+      "source": "00_initial_brief_resolucao_4557",
+      "target": "00_initial_brief_basel_framework",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a73.1",
+      "weight": 1.0
+    },
+    {
+      "source": "00_initial_brief_poc_operational_risk",
+      "target": "00_initial_brief_paper_pakhchanyan2022",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a73.2",
+      "weight": 1.0
+    },
+    {
+      "source": "00_initial_brief_poc_operational_risk",
+      "target": "00_initial_brief_paper_arxiv_2212_01285",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a73.2",
+      "weight": 1.0
+    },
+    {
+      "source": "00_initial_brief_poc_operational_risk",
+      "target": "00_initial_brief_paper_semiorc_acl2020",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a73.2",
+      "weight": 1.0
+    },
+    {
+      "source": "00_initial_brief_poc_operational_risk",
+      "target": "00_initial_brief_paper_incidentai_2310_12074",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a73.2",
+      "weight": 1.0
+    },
+    {
+      "source": "00_initial_brief_poc_operational_risk",
+      "target": "00_initial_brief_paper_arxiv_2301_05663",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a73.2",
+      "weight": 1.0
+    },
+    {
+      "source": "00_initial_brief_poc_operational_risk",
+      "target": "00_initial_brief_capgemini_invent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a73.3",
+      "weight": 1.0
+    },
+    {
+      "source": "00_initial_brief_adr6_no_graph_v1",
+      "target": "00_initial_brief_graphrag",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a711 ADR 6",
+      "weight": 1.0
+    },
+    {
+      "source": "00_initial_brief_adr6_no_graph_v1",
+      "target": "00_initial_brief_graphiti",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a72.3",
+      "weight": 1.0
+    },
+    {
+      "source": "00_initial_brief_poc_operational_risk",
+      "target": "00_initial_brief_nl_qa_agent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a76.7",
+      "weight": 1.0
+    },
+    {
+      "source": "00_initial_brief_poc_operational_risk",
+      "target": "00_initial_brief_migration_ptbr",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a710",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan1_topic_modeling",
+      "target": "00_initial_brief_bertopic_naive_failure",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 1 Tese",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan1_topic_modeling",
+      "target": "plans_bertopic",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 1",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan1_topic_modeling",
+      "target": "plans_top2vec",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 1",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan1_topic_modeling",
+      "target": "plans_ntm_prodlda_etm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 1",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan1_topic_modeling",
+      "target": "00_initial_brief_clio_approach",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 1 Sub-pergunta 5",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan1_topic_modeling",
+      "target": "plans_plan2_selfservice_classification",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 1 Depend\u00eancias",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan2_selfservice_classification",
+      "target": "plans_snorkel_weak_supervision",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 2",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan2_selfservice_classification",
+      "target": "plans_active_learning",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 2",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan2_selfservice_classification",
+      "target": "plans_argilla_labelstudio_prodigy",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 2",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan2_selfservice_classification",
+      "target": "00_initial_brief_selfservice_classification",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 2 Tese",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan3_causal_relational",
+      "target": "00_initial_brief_graphrag",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 3 Sub-pergunta 3",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan3_causal_relational",
+      "target": "00_initial_brief_graphiti",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 3 Sub-pergunta 4",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan3_causal_relational",
+      "target": "plans_lightrag",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 3 Sub-pergunta 6",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan3_causal_relational",
+      "target": "plans_process_mining",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 3 Sub-pergunta 2",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan3_causal_relational",
+      "target": "00_initial_brief_paper_incidentai_2310_12074",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 3 Tipos de fontes",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan3_causal_relational",
+      "target": "plans_adr6_reconsideration",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 3 Output",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_adr6_reconsideration",
+      "target": "00_initial_brief_adr6_no_graph_v1",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 3 Output",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan4_temporal_novelty",
+      "target": "plans_dtm_dynamic_topic_models",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 4",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan4_temporal_novelty",
+      "target": "plans_changepoint_detection",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 4",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan4_temporal_novelty",
+      "target": "plans_concept_drift",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 4",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan4_temporal_novelty",
+      "target": "00_initial_brief_prophet_zscore",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 4 Tese",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan4_temporal_novelty",
+      "target": "plans_plan1_topic_modeling",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 4 Adjac\u00eancias",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan5_conversational_market",
+      "target": "plans_text_to_sql",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 5",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan5_conversational_market",
+      "target": "plans_hybrid_rag",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 5",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan5_conversational_market",
+      "target": "plans_dspy",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 5",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan5_conversational_market",
+      "target": "00_initial_brief_streamlit_ui",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 5 Sub-pergunta 6",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan5_conversational_market",
+      "target": "00_initial_brief_capgemini_invent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 5 Sub-pergunta 4",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan5_conversational_market",
+      "target": "00_initial_brief_nl_qa_agent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 5 Adjac\u00eancias \u00a76.7",
+      "weight": 1.0
+    },
+    {
+      "source": "notes_intelligence_platform_reframe",
+      "target": "00_initial_brief_poc_operational_risk",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/decisions/00-brief-reading-notes.md",
+      "source_location": "conclusion 1",
+      "weight": 1.0
+    },
+    {
+      "source": "notes_temporal_gap",
+      "target": "00_initial_brief_prophet_zscore",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/decisions/00-brief-reading-notes.md",
+      "source_location": "conclusion 6",
+      "weight": 1.0
+    },
+    {
+      "source": "notes_temporal_gap",
+      "target": "plans_dtm_dynamic_topic_models",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/decisions/00-brief-reading-notes.md",
+      "source_location": "conclusion 6",
+      "weight": 1.0
+    },
+    {
+      "source": "notes_temporal_gap",
+      "target": "plans_changepoint_detection",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/decisions/00-brief-reading-notes.md",
+      "source_location": "conclusion 6",
+      "weight": 1.0
+    },
+    {
+      "source": "notes_decision_table",
+      "target": "00_initial_brief_llm_pre_extraction",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/decisions/00-brief-reading-notes.md",
+      "source_location": "D1",
+      "weight": 1.0
+    },
+    {
+      "source": "notes_decision_table",
+      "target": "00_initial_brief_pydantic_schema",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/decisions/00-brief-reading-notes.md",
+      "source_location": "D2",
+      "weight": 1.0
+    },
+    {
+      "source": "notes_decision_table",
+      "target": "00_initial_brief_embedding_strategy",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/decisions/00-brief-reading-notes.md",
+      "source_location": "D3",
+      "weight": 1.0
+    },
+    {
+      "source": "notes_decision_table",
+      "target": "00_initial_brief_hdbscan_umap",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/decisions/00-brief-reading-notes.md",
+      "source_location": "D4",
+      "weight": 1.0
+    },
+    {
+      "source": "notes_decision_table",
+      "target": "00_initial_brief_prophet_zscore",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/decisions/00-brief-reading-notes.md",
+      "source_location": "D5",
+      "weight": 1.0
+    },
+    {
+      "source": "notes_decision_table",
+      "target": "00_initial_brief_adr6_no_graph_v1",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/decisions/00-brief-reading-notes.md",
+      "source_location": "D6",
+      "weight": 1.0
+    },
+    {
+      "source": "notes_decision_table",
+      "target": "00_initial_brief_pgvector",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/decisions/00-brief-reading-notes.md",
+      "source_location": "D7",
+      "weight": 1.0
+    },
+    {
+      "source": "notes_decision_table",
+      "target": "00_initial_brief_streamlit_ui",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/decisions/00-brief-reading-notes.md",
+      "source_location": "D8",
+      "weight": 1.0
+    },
+    {
+      "source": "notes_conversational_differentiator",
+      "target": "00_initial_brief_nl_qa_agent",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/decisions/00-brief-reading-notes.md",
+      "source_location": "conclusion 8",
+      "weight": 1.0
+    },
+    {
+      "source": "notes_dynamic_hierarchy_gap",
+      "target": "00_initial_brief_selfservice_classification",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/decisions/00-brief-reading-notes.md",
+      "source_location": "Gaps",
+      "weight": 1.0
+    },
+    {
+      "source": "notes_graphify_setup",
+      "target": "00_initial_brief_poc_operational_risk",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/decisions/00-brief-reading-notes.md",
+      "source_location": "conclusion 10",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan1_topic_modeling",
+      "target": "notes_decision_table",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 1 Adjac\u00eancias D4",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan2_selfservice_classification",
+      "target": "notes_decision_table",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 2 Adjac\u00eancias D1 D2 D3",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_plan4_temporal_novelty",
+      "target": "notes_decision_table",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 4 Adjac\u00eancias D5",
+      "weight": 1.0
+    },
+    {
+      "source": "00_initial_brief_paper_semiorc_acl2020",
+      "target": "00_initial_brief_selfservice_classification",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a73.2",
+      "weight": 0.75
+    },
+    {
+      "source": "plans_snorkel_weak_supervision",
+      "target": "plans_active_learning",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 2",
+      "weight": 0.8
+    },
+    {
+      "source": "plans_bertopic",
+      "target": "plans_top2vec",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 1",
+      "weight": 0.85
+    },
+    {
+      "source": "plans_hybrid_rag",
+      "target": "00_initial_brief_nl_qa_agent",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 5",
+      "weight": 0.9
+    },
+    {
+      "source": "plans_dtm_dynamic_topic_models",
+      "target": "plans_concept_drift",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 4",
+      "weight": 0.75
+    },
+    {
+      "source": "00_initial_brief_graphrag",
+      "target": "plans_lightrag",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 3",
+      "weight": 0.85
+    },
+    {
+      "source": "00_initial_brief_graphiti",
+      "target": "00_initial_brief_graphrag",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "research/round-1/plans.md",
+      "source_location": "Plano 3 Sub-pergunta 4",
+      "weight": 0.8
+    },
+    {
+      "source": "00_initial_brief_uci_event_log",
+      "target": "plans_process_mining",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "research/raw/00-initial-brief.md",
+      "source_location": "\u00a75.2",
+      "weight": 0.85
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "hyperedge_topic_modeling_pipeline",
+      "label": "Topic Modeling Pipeline: LLM Extraction + Embedding + HDBSCAN",
+      "nodes": [
+        "00_initial_brief_llm_pre_extraction",
+        "00_initial_brief_embedding_strategy",
+        "00_initial_brief_hdbscan_umap",
+        "00_initial_brief_clio_approach"
+      ],
+      "relation": "implement",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "research/raw/00-initial-brief.md"
+    },
+    {
+      "id": "hyperedge_research_plans_cover_poc_decisions",
+      "label": "5 Research Plans collectively validate 8 architectural decisions in D1-D8 table",
+      "nodes": [
+        "plans_plan1_topic_modeling",
+        "plans_plan2_selfservice_classification",
+        "plans_plan3_causal_relational",
+        "plans_plan4_temporal_novelty",
+        "plans_plan5_conversational_market",
+        "notes_decision_table"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "research/round-1/plans.md"
+    },
+    {
+      "id": "hyperedge_knowledge_graph_causal_analysis",
+      "label": "Knowledge Graph technologies collectively address causal/relational analysis gap (ADR 6 reconsideration)",
+      "nodes": [
+        "00_initial_brief_graphrag",
+        "00_initial_brief_graphiti",
+        "plans_lightrag",
+        "plans_adr6_reconsideration",
+        "plans_plan3_causal_relational"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "research/round-1/plans.md"
+    }
+  ],
+  "input_tokens": 4200,
+  "output_tokens": 3100
+}
