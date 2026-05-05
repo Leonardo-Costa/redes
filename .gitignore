@@ -1,0 +1,15 @@
+# Graphify pipeline temp files and cache
+research/graphify-out/.graphify_*
+/graphify-out/
+research/graphify-out/cache/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+
+# Env
+.env
+.env.*

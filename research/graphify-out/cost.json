@@ -1,0 +1,19 @@
+{
+  "runs": [
+    {
+      "date": "2026-05-05T00:51:14.532879+00:00",
+      "input_tokens": 4200,
+      "output_tokens": 3100,
+      "files": 3
+    },
+    {
+      "date": "2026-05-05T01:35:24.126764+00:00",
+      "input_tokens": 4200,
+      "output_tokens": 3100,
+      "files": 8,
+      "note": "incremental update \u2014 5 research plans extracted"
+    }
+  ],
+  "total_input_tokens": 8400,
+  "total_output_tokens": 6200
+}

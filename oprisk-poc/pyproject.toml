@@ -1,0 +1,60 @@
+[project]
+name = "oprisk-poc"
+version = "0.1.0"
+description = "Operational Risk Incident Intelligence POC"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.40.0",
+    "instructor>=1.6.0",
+    "pydantic>=2.0.0",
+    "datasets>=3.0.0",
+    "pandas>=2.0.0",
+    "duckdb>=1.0.0",
+    "psycopg[binary]>=3.1.0",
+    "pgvector>=0.3.0",
+    "alembic>=1.13.0",
+    "sqlalchemy>=2.0.0",
+    "sentence-transformers>=3.0.0",
+    "umap-learn>=0.5.0",
+    "hdbscan>=0.8.0",
+    "scikit-learn>=1.4.0",
+    "statsmodels>=0.14.0",
+    "ruptures>=1.1.0",
+    "streamlit>=1.40.0",
+    "plotly>=5.0.0",
+    "tenacity>=8.0.0",
+    "loguru>=0.7.0",
+    "tqdm>=4.0.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "ruff>=0.8.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+    "pytest-asyncio>=1.3.0",
+]
