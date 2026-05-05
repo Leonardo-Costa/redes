@@ -19,7 +19,7 @@ Construir uma POC de **análise ad-hoc e topic modeling self-service sobre uma b
 
 **Stack inicial (sujeita a revisão pós-pesquisa):** Python + Anthropic API/Bedrock (Sonnet/Opus) + pgvector + HDBSCAN + Streamlit + Graphify.
 
-**Objetivo final:** validar arquitetura em dataset público, depois aplicar na base interna do BTG em PT-BR.
+**Objetivo final:** validar arquitetura em dataset público, depois aplicar na base interna do cliente em PT-BR.
 
 -----
 
@@ -27,7 +27,7 @@ Construir uma POC de **análise ad-hoc e topic modeling self-service sobre uma b
 
 ### 1.1 Origem do problema
 
-O time de dados de risco operacional do BTG (divisão de Seguros e Previdência) solicitou ajuda para classificar uma base histórica de **1000+ incidentes**. A motivação declarada é "BI" — saber o percentual de incidentes por categoria por mês.
+O time de dados de risco operacional do cliente (divisão de Seguros e Previdência) solicitou ajuda para classificar uma base histórica de **1000+ incidentes**. A motivação declarada é "BI" — saber o percentual de incidentes por categoria por mês.
 
 ### 1.2 Por que classificação pura é uma ideia fraca
 
@@ -248,10 +248,10 @@ Infra: `pgvector/pgvector:pg16` Docker
 
 -----
 
-## 10. Migração para BTG (post-POC)
+## 10. Migração para o cliente (post-POC)
 
 - Prompt de extração → PT-BR
-- `ProductDomain` → domínios BTG (PIX, conta investimento, previdência, multimercado, crédito imobiliário)
+- `ProductDomain` → domínios do cliente (PIX, conta investimento, previdência, multimercado, crédito imobiliário)
 - Embedding model → `bge-m3` ou `multilingual-e5-large`
 - Anthropic API → Bedrock via proxy interno
 - Aprovações: DPO, segurança da informação, compliance (anonimização PII)
@@ -263,7 +263,7 @@ Infra: `pgvector/pgvector:pg16` Docker
 - **ADR 1**: Extração estruturada antes de clustering (boilerplate + eixos ortogonais)
 - **ADR 2**: Múltiplas facetas em vez de label única
 - **ADR 3**: CFPB em vez de dataset sintético (dado real, ground truth, domínio banco)
-- **ADR 4**: pgvector em vez de Pinecone/Weaviate (POC local, stack BTG já tem Postgres)
+- **ADR 4**: pgvector em vez de Pinecone/Weaviate (POC local, stack do cliente já tem Postgres)
 - **ADR 5**: Sonnet (Haiku falha em nuance regulatória, Opus caro demais para 5k)
 - **ADR 6**: Sem grafo na v1 (ROI baixo em 5k, evolução futura documentada)
 

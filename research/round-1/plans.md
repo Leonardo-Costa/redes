@@ -63,7 +63,7 @@ fronteiras entre zero-shot, few-shot, active learning, weak supervision, e "LLM-
 2. Active learning clássico (uncertainty sampling, query-by-committee) ainda é competitivo
    em 2025, ou LLM few-shot torna obsoleto o loop de anotação tradicional?
 3. Weak supervision (Snorkel, programmatic labeling) é uma alternativa viável para o caso
-   do BTG, onde a taxonomia muda com frequência?
+   do cliente, onde a taxonomia muda com frequência?
 4. Como implementar "mostre incidentes que ficaram entre duas categorias" (fronteira de
    decisão) de forma interpretável? Abordagens: embedding space boundary visualization,
    calibrated classifiers, explanation methods (LIME/SHAP sobre embeddings)?

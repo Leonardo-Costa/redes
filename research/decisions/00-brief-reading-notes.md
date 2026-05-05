@@ -38,7 +38,7 @@ Date: 2026-05-05
    stretch goal, mas é provavelmente o diferenciador mais importante vs um dashboard de BI.
    A pesquisa deve priorizar isso.
 
-9. **Migração para BTG** requer: prompt PT-BR, troca de embedding model (bge-m3),
+9. **Migração para o cliente** requer: prompt PT-BR, troca de embedding model (bge-m3),
    adaptação do ProductDomain, aprovações DPO/compliance. Isso afeta design de abstração —
    o sistema deve ser parametrizado para troca de idioma/taxonomia sem reescrita.
 
@@ -57,7 +57,7 @@ Date: 2026-05-05
 | D4 | UMAP + HDBSCAN para clustering | Padrão da literatura recente | Outros approaches (NTMs, Top2Vec) podem dominar em domínio específico |
 | D5 | Prophet/z-score para temporal | Simples, interpretável | DTM ou changepoint detection capturam drift de vocabulário, não só volume |
 | D6 | Sem grafo na v1 | ROI baixo em 5k | Perde análise causal/relacional real (Seção 1.4) |
-| D7 | pgvector para vector store | Stack BTG, zero custo adicional | Limitações em query complexa (faceted search, hybrid) |
+| D7 | pgvector para vector store | Stack do cliente, zero custo adicional | Limitações em query complexa (faceted search, hybrid) |
 | D8 | Streamlit para UI | Rápido de prototipar | Não escala para exploração conversacional real |
 
 ## Gaps identificados na especificação (precisam de pesquisa)
@@ -79,6 +79,4 @@ Date: 2026-05-05
 - [x] Hook git instalado (`post-commit`, `post-checkout`)
 - [x] Diretório `research/` criado com estrutura correta
 - [x] Brief copiado para `research/raw/00-initial-brief.md`
-- [ ] `ANTHROPIC_API_KEY` pendente para extração LLM do grafo
-- [ ] `graphify extract ./research` pendente (requer API key)
-- [ ] Watch mode pendente (idem)
+- [x] Extração LLM do grafo: feita via skill `/graphify` (sem API key separada)
